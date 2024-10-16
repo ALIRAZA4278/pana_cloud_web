@@ -336,17 +336,48 @@ body {
     background-color: #ffcc00; /* Darker yellow on hover */
     transform: scale(1.05); /* Slightly enlarge button on hover */
 }
-
-/* Responsive Styles */
-@media (max-width: 768px) {
-    .home-title {
-     
-    }
-    .home-subtitle, .home-desc {
-   
+@media screen and (max-width: 1400px){
+    #home{
+        height: 60vh;
     }
 }
+@media screen and (max-width: 1084px) {
+    #home{
+        height: 50vh;
 
+    }
+}
+/* Responsive Styles */
+@media (max-width: 768px) {
+    #home{
+        height: 40vh;
+        
+    }
+    .home-title {
+        font-size: 6vw;
+    }
+    .home-subtitle, .home-desc {
+        font-size: 2vw;
+    }
+    .home-btn {
+        font-size: 1.5vw;
+    }
+
+}
+@media (max-width: 450px){
+    #home{
+        height: 30vh;
+    }
+    .home-title {
+        font-size: 8vw;
+    }
+    .home-subtitle, .home-desc {
+        font-size: 3vw;
+    }
+    .home-btn {
+        font-size: 2vw;
+    }
+}
 
 
 
